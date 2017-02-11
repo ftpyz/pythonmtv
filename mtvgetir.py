@@ -3,7 +3,6 @@ import os,sys,decimal,django
 
 from pyquery import PyQuery as pq
 import unirest
-from backend.models import *
 
 class MtvGetir(object):
    def __init__(self,plaka,tescil,vergino):
